@@ -22,7 +22,7 @@ class Solution
 {
     static int[] solve(int[] grades)
     {
-        for (int i = 0; i < grades.Length; i++)
+        for (int i = 0; i < grades.Count(); i++)
         {
             var item = grades[i];
             if (item >= 38)
